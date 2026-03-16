@@ -1,0 +1,262 @@
+{
+  "categories": [
+    
+    {
+      
+      "id": "bottles",
+      "name": "Water Bottles",
+      "image": "../../public/images/Products/Bottle/Bottle.jpeg",
+      
+      
+  "products": [
+    {
+      "id": "bottles-1",
+      "name": "BLACK HANDLE",
+      "images": [
+        "/images/Products/Bottle/Bottle.jpeg"
+      ],
+      "contact": "Vivek Pandey",
+      "phone": "8928916824",
+      "details": {
+        "Material": "Single Wall Stainless Steel Water Bottle",
+        "Available Size (Capacity)": "500, 650 to 750 , 800 to 900 ml",
+        "Quality": "Export Quality",
+        
+        "Weight": "220 gram"
+      }
+    },
+     {
+      "id": "bottles-2",
+      "name": " FLIP CAP ",
+      "images": [
+        "/images/Products/Bottle/Bottle2.jpeg"
+      ],
+      "contact": "Vivek Pandey",
+      "phone": "8928916824",
+      "details": {
+        "Material": "Single Wall Stainless Steel Water Bottle",
+        "Available Size (Capacity)": "500, 650 to 750 , 800 to 900 ml",
+        "Quality": "Export Quality",
+        
+        "Weight": "220 gram"
+      }
+    },
+     {
+      "id": "bottles-3",
+      "name": "ABS ",
+      "images": [
+        "/images/Products/Bottle/Bottle3.jpeg"
+      ],
+      "contact": "Vivek Pandey",
+      "phone": "8928916824",
+      "details": {
+        "Material": "Single Wall Stainless Steel Water Bottle",
+        "Available Size (Capacity)": "500, 650 to 750 , 800 to 900 ml",
+        "Quality": "Export Quality",
+        
+        "Weight": "220 gram"
+      }
+    },
+     {
+      "id": "bottles-4",
+      "name": "A TO Z",
+      "images": [
+        "/images/Products/Bottle/Bottle4.jpeg"
+      ],
+      "contact": "Vivek Pandey",
+      "phone": "8928916824",
+      "details": {
+        "Material": "Single Wall Stainless Steel Water Bottle",
+        "Available Size (Capacity)": "500, 650 to 750 , 800 to 900 ml",
+        "Quality": "Export Quality",
+        
+        "Weight": "220 gram"
+      }
+    },
+     {
+      "id": "bottles-5",
+      "name": "SPORTS FOIL",
+      "images": [
+        "/images/Products/Bottle/Bottle5.jpeg"
+      ],
+      "contact": "Vivek Pandey",
+      "phone": "8928916824",
+      "details": {
+        "Material": "Single Wall Stainless Steel Water Bottle",
+        "Available Size (Capacity)": "500, 650 to 750 , 800 to 900 ml",
+        "Quality": "Export Quality",
+        
+        "Weight": "220 gram"
+      }
+    },
+     {
+      "id": "bottles-6",
+      "name": " BULLET HOT & COLD",
+      "images": [
+        "/images/Products/Bottle/Bottle6.jpeg"
+      ],
+      "contact": "Vivek Pandey",
+      "phone": "8928916824",
+      "details": {
+        "Material": "PREMIUM DOUBLE WALL HOT & COLD WATER BOTTLE IN 304 GRADE QUALITY & BPA FREE PLASTIC",
+        "Available Size (Capacity)": "500, 750ml, 900 ml",
+        "Quality": "Export Quality",
+        
+        "Weight": "220 gram"
+      }
+    },
+     {
+      "id": "bottles-7",
+      "name": "COLA HOT & COLD",
+      "images": [
+        "/images/Products/Bottle/Bottle7.jpeg"
+      ],
+      "contact": "Vivek Pandey",
+      "phone": "8928916824",
+      "details": {
+        "Material": "PREMIUM DOUBLE WALL HOT & COLD WATER BOTTLE IN 304 GRADE QUALITY & BPA FREE PLASTIC",
+        "Available Size (Capacity)": "500,750 ,900 ml",
+        "Quality": "Export Quality",
+        
+        "Weight": "220 gram"
+      }
+    },
+     {
+      "id": "bottles-8",
+      "name": "ABS COLOR MUNDI ",
+      "images": [
+        "/images/Products/Bottle/Bottle8.jpeg"
+      ],
+      "contact": "Vivek Pandey",
+      "phone": "8928916824",
+      "details": {
+        "Material": "Single Wall Stainless Steel Water Bottle",
+        "Available Size (Capacity)": "500, 650 to 750 , 800 to 900 ml",
+        "Quality": "Export Quality",
+        
+        "Weight": "220 gram"
+      }
+    }
+    
+  ]
+}
+    ,
+
+    {
+      "id": "cups",
+      "name": "Cups & Mugs",
+      "image": "../../public/images/Products/Cup_Mug/cup.jpeg",
+      "products": [
+        {
+      "id": "cups-1",
+      "name": "Cup",
+      "images": [
+        "/images/Products/Cup_Mug/cup.jpeg"
+      ],
+      "contact": "Vivek Pandey",
+      "phone": "8928916824",
+      "details": {
+        "Size": "(9,10,11,12)inch",
+        
+        "Quality": "Export Quality",
+        
+        "Weight": "220 gram",
+        "Description" : "Available in 4 sizes with different weight and dimensions and good quality."
+      }
+    },
+
+     {
+      "id": "jugs-1",
+      "name": "FOUNTAIN WATER JUGS ",
+      "images": [
+        "/images/Products/Cup_Mug/Jug.jpeg"
+      ],
+      "contact": "Vivek Pandey",
+      "phone": "8928916824",
+      "details": {
+        "Material": "PREMIUM INSULATED WATER JUGS BEST QUALITY & BPA FREE PLASTIC",
+        "Size": "2200ml (2 LITRE) ,  5000ml (5 LITRE)",
+        
+        "Quality": "Export Quality",
+        
+        "Weight": "220 gram"
+       
+      }
+    }
+      ]
+    },
+
+    {
+      "id": "tiffins",
+      "name": "Tiffins",
+      "image": "../../public/images/Products/Tiffin/Tiffin.jpeg",
+      "products": [
+        {
+          "id": "tiffins-1",
+          "name": "OFFICER TIFFIN'S CHOICE",
+          "images": [
+            "../../public/images/Products/Tiffin/Tiffin.jpeg"
+            
+          ],
+"contact": "Vivek Pandey",
+"phone": "8928916824",
+"details": {
+  "Material": "<br>  1 SPOON <br>  2 SMALL STAINLESS STEEL BOX WITH BPA FREE PLASTIC CAP <br>  1 LONG LUNCH BOX IN STAINLESS STEEL INNER AND BPA FREE PLASTIC CAP <br>  1 BAG / POUCH TO KEEP IT TOGETHER",
+  "Size": "11 inch",
+  "Weight": "220 gram",
+  "Quality": "Export Quality"
+}
+        }
+      ]
+    },
+    {
+      "id": "casserole",
+      "name": "Casserole",
+      "image": "../../public/images/Products/Casserole/Casserole.jpeg",
+      "products": [
+        {
+          "id": "casserole",
+          "name": "Casserole",
+          "images": [
+            "../../public/images/Products/Casserole/Casserole.jpeg"
+            
+          ],
+          "contact": "Vivek Pandey",
+          "phone": "8928916824",
+          "details": {
+            "Material": "Plastic",
+           
+            "Size": "3000",
+            "Model Size": "3000 , 3500",
+            "Quality": "STAINLESS STEEL INNER &  OUTER BPA FREE PLASTIC ",
+            "Description":"sAvailable in 2 sizes with different weight and dimensions and good quality"
+           
+          }
+        }
+      ]
+    },
+ {
+      "id": "gym shaker",
+      "name": "Gym Shaker",
+      "image": "../../public/images/Products/Gym_Shaker/gym.jpeg",
+      "products": [
+        {
+          "id": "gym shaker",
+          "name": "GYM SHAKER ",
+          "images": [
+            "../../public/images/Products/Gym_Shaker/gym.jpeg"
+            
+          ],
+"contact": "Vivek Pandey",
+"phone": "8928916824",
+"details": {
+  "Material": "PREMIUM SINGLE WALL GYM SHAKER IN 304 GRADE QUALITY & BPA FREE PLASTIC",
+  "Size": " 500ml <br> 750ml <br> 900ml",
+  "Weight": "220 gram",
+  "Quality": "Export Quality"
+}
+        }
+      ]
+    }  
+  ]
+}

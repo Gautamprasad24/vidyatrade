@@ -1,0 +1,1 @@
+import {image} from "../../public/images/Products/Cup/cup.jpeg"

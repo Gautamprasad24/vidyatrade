@@ -1,0 +1,114 @@
+{
+  "company": "Vidya Trade",
+  "phone": "+91 8181039039",
+  "email": "vidyatrade@gmail.com",
+
+  "navLinks": [
+    { "name": "Home", "link": "/" },
+    { "name": "About", "link": "/about" },
+    { "name": "Products", "link": "/products" },
+    { "name": "Gallery", "link": "/gallery" },
+    { "name": "Contact Us", "link": "/contact" }
+  ],
+ "founders": [
+    {
+      "name": "Vishal Avadhesh Pandey",
+      "designation": "Founder",
+      "education": [
+        "M.Com in Advanced Accountancy",
+        "Certified Data Analyst"
+      ],
+      "image": "/vishal_pandey.jpeg",
+      "linkedin": "#",
+      "instagram": "#",
+      "facebook": "#",
+      "message": "With a strong foundation in finance and analytics, Vishal Avadhesh Pandey brings strategic thinking and data-driven insights to the company. His vision focuses on building a trusted brand that delivers quality and long-term value."
+    },
+    {
+      "name": "Vivek Avadhesh Pandey",
+      "designation": "Chairman",
+      "education": [
+        "Bachelor of Mass Media and Communication",
+        "Pursuing Law"
+      ],
+      "image": "/vivek_pandey.png",
+      "linkedin": "#",
+      "instagram": "#",
+      "facebook": "#",
+      "message": "Vivek Avadhesh Pandey leads the organization with strong communication, leadership and strategic vision. His academic background strengthens the company’s growth and professional direction."
+    }
+  ],
+
+   "products": [
+    {
+      "id": "bottles",
+      "title": "Water Bottles",
+      "description": "Premium stainless steel bottles",
+      "image": "/images/Products/Bottle/Bottle.jpeg"
+    },
+    {
+      "id": "cups",
+      "title": "Cups & Mug",
+      "description": "High quality steel mugs",
+      "image": "../../public/images/Products/Cup_Mug/cup.jpeg"
+    },
+    {
+      "id": "casserole",
+      "title": "Casserole",
+      "description": "Insulated food containers",
+      "image": "../../public/images/Products/Casserole/Casserole.jpeg"
+    },
+    {
+      "id": "gym shaker",
+      "title": "Gym Shaker",
+      "description": "Perfect for fitness and workouts",
+      "image": "../../public/images/Products/Gym_Shaker/gym.jpeg"
+    },
+    {
+      "id": "tiffins",
+      "title": "Tiffins",
+      "description": "Durable stainless steel tiffins",
+      "image": "../../public/images/Products/Tiffin/Tiffin.jpeg"
+    }
+  ],
+  
+  "testimonials": [
+    {
+      "name": "Rahul Sharma",
+      "company": "Mumbai Retail Store",
+      "message": "Vidya Trade products are excellent. The stainless steel quality and durability are outstanding.",
+      "rating": 5
+    },
+    {
+      "name": "Amit Patel",
+      "company": "Kitchen Supplies Dealer",
+      "message": "Very reliable supplier. The products are premium quality and delivery is always on time.",
+      "rating": 5
+    },
+    {
+      "name": "Sneha Verma",
+      "company": "Home Essentials Distributor",
+      "message": "Professional service and great product range. Highly recommended.",
+      "rating": 4
+    }
+  ],
+
+  "clients": [
+    {
+      "name": "Reliance Retail",
+      "logo": "/Reliance_Retail.svg"
+    },
+    {
+      "name": "Big Bazaar",
+      "logo": "/big_bazar.png"
+    },
+    {
+      "name": "DMart",
+      "logo": "dmart.png"
+    },
+    {
+      "name": "Metro Cash & Carry",
+      "logo": "/metro.png"
+    }
+  ]
+}

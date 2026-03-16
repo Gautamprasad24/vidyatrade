@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+:root{
+  --primary:#432D5E;
+  --pink:#D65B95;
+  --gold:#F3B947;
+  --lavender:#837F9B;
+}
