@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 
-export default function Footer() {
+export default function Footer({ openModal }) {
 
   return (
     <footer className="bg-[#432D5E] text-white pt-16">
@@ -25,26 +26,46 @@ export default function Footer() {
         </div>
 
         {/* CONTACT */}
+        {/* CONTACT */}
         <div>
 
           <h3 className="text-lg font-semibold mb-4 text-[#F3B947]">
             CONTACT
           </h3>
 
+          {/* EMAIL */}
           <p className="text-gray-300 mb-2">
-            info@vidyatrade.com
+            <a
+              href="mailto:info@vidyatrade.com"
+              className="hover:text-[#F3B947]"
+            >
+              info@vidyatrade.com
+            </a>
           </p>
 
+          {/* PHONE */}
           <p className="text-gray-300 mb-2">
-            +91 8181039039
+            <a
+              href="tel:+918181039039"
+              className="hover:text-[#F3B947]"
+            >
+              +91 8181039039
+            </a>
           </p>
 
+          {/* LOCATION */}
           <p className="text-gray-300">
-            Mumbai, Maharashtra, India
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Mumbai,Maharashtra,India"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#F3B947]"
+            >
+              Mumbai, Maharashtra, India
+            </a>
           </p>
 
         </div>
-
         {/* USEFUL LINKS */}
         <div>
 
@@ -54,12 +75,34 @@ export default function Footer() {
 
           <ul className="space-y-2 text-gray-300">
 
-            <li className="hover:text-[#F3B947] cursor-pointer">Home</li>
-            <li className="hover:text-[#F3B947] cursor-pointer">About</li>
-            <li className="hover:text-[#F3B947] cursor-pointer">Products</li>
-            <li className="hover:text-[#F3B947] cursor-pointer">Founder</li>
-            <li className="hover:text-[#F3B947] cursor-pointer">Clients</li>
-            <li className="hover:text-[#F3B947] cursor-pointer">Inquiry</li>
+            <li>
+              <Link to="/" className="hover:text-[#F3B947]">Home</Link>
+            </li>
+
+            <li>
+              <Link to="/about" className="hover:text-[#F3B947]">About</Link>
+            </li>
+
+            <li>
+              <Link to="/products" className="hover:text-[#F3B947]">Products</Link>
+            </li>
+
+            <li>
+              <Link to="/founder" className="hover:text-[#F3B947]">Founder</Link>
+            </li>
+
+            <li>
+              <Link to="/clients" className="hover:text-[#F3B947]">Clients</Link>
+            </li>
+
+            <li>
+              <button
+                onClick={openModal}
+                className="hover:text-[#F3B947]"
+              >
+                Inquiry
+              </button>
+            </li>
 
           </ul>
 
@@ -76,14 +119,15 @@ export default function Footer() {
             Vidya Trade Development Team
           </p>
 
-          <button
-            className="border border-white px-6 py-2
+          <Link
+            to="/"
+            className="border border-white px-6 py-2 inline-block
             hover:bg-[#F3B947]
             hover:text-black
             transition"
           >
             VISIT WEBSITE
-          </button>
+          </Link>
 
         </div>
 
@@ -114,37 +158,45 @@ export default function Footer() {
       {/* SOCIAL ICONS */}
       <div className="flex justify-center gap-6 mt-6 pb-10">
 
-        <div className="w-10 h-10 rounded-full border border-[#F3B947]
-        flex items-center justify-center
-        hover:bg-[#F3B947] hover:text-black transition">
-
+        <a
+          href="https://facebook.com"
+          target="_blank"
+          className="w-10 h-10 rounded-full border border-[#F3B947]
+          flex items-center justify-center
+          hover:bg-[#F3B947] hover:text-black transition"
+        >
           <FaFacebookF />
+        </a>
 
-        </div>
-
-        <div className="w-10 h-10 rounded-full border border-[#F3B947]
-        flex items-center justify-center
-        hover:bg-[#F3B947] hover:text-black transition">
-
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          className="w-10 h-10 rounded-full border border-[#F3B947]
+          flex items-center justify-center
+          hover:bg-[#F3B947] hover:text-black transition"
+        >
           <FaInstagram />
+        </a>
 
-        </div>
-
-        <div className="w-10 h-10 rounded-full border border-[#F3B947]
-        flex items-center justify-center
-        hover:bg-[#F3B947] hover:text-black transition">
-
+        <a
+          href="https://twitter.com"
+          target="_blank"
+          className="w-10 h-10 rounded-full border border-[#F3B947]
+          flex items-center justify-center
+          hover:bg-[#F3B947] hover:text-black transition"
+        >
           <FaXTwitter />
+        </a>
 
-        </div>
-
-        <div className="w-10 h-10 rounded-full border border-[#F3B947]
-        flex items-center justify-center
-        hover:bg-[#F3B947] hover:text-black transition">
-
+        <a
+          href="https://linkedin.com"
+          target="_blank"
+          className="w-10 h-10 rounded-full border border-[#F3B947]
+          flex items-center justify-center
+          hover:bg-[#F3B947] hover:text-black transition"
+        >
           <FaLinkedinIn />
-
-        </div>
+        </a>
 
       </div>
 

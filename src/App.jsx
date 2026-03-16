@@ -30,15 +30,15 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/products" element={<Products />} />
 
-<Route path="/category/:id" element={<Category />} />
+        <Route path="/category/:id" element={<Category />} />
 
-<Route path="/product/:id" element={<ProductDetail />} />
-<Route path="/gallery" element={<Gallery />} />
-<Route path="/contact" element={<Contact />} />
+        <Route path="/product/:id" element={<ProductDetail />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/contact" element={<Contact />} />
 
       </Routes>
 
-      <Footer />
+      <Footer openModal={() => setModalOpen(true)} />
 
       {/* ENQUIRY MODAL */}
       {modalOpen && (
