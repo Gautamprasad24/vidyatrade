@@ -11,7 +11,7 @@ export default function Hero({ openModal }) {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('../../public/images/vidya_trade_office.png')",
+            "url('/images/vidya_trade_office.png')",
         }}
       />
 

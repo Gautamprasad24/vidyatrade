@@ -1,14 +1,13 @@
 {
   "gallery": [
-  
-     {
+    {
       "type": "image",
-      "src": "../../public/images/Products/Gym_Shaker/gym.jpeg",
+      "src": "/images/Products/Gym_Shaker/gym.jpeg",
       "title": "Gym Shaker Bottle"
     },
     {
       "type": "video",
-      "src": "../../public/images/Products/Gym_Shaker/Shaker.mp4",
+      "src": "/images/Products/Gym_Shaker/Shaker.mp4",
       "title": "Product Demo"
     }
   ]

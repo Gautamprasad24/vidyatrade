@@ -1,1 +1,1 @@
-import {image} from "../../public/images/Products/Cup/cup.jpeg"
+import { image } from "/images/Products/Cup/cup.jpeg"
