@@ -2,15 +2,29 @@
   "company": "Vidya Trade",
   "phone": "+91 8181039039",
   "email": "vidyatrade@gmail.com",
-
   "navLinks": [
-    { "name": "Home", "link": "/" },
-    { "name": "About", "link": "/about" },
-    { "name": "Products", "link": "/products" },
-    { "name": "Gallery", "link": "/gallery" },
-    { "name": "Contact Us", "link": "/contact" }
+    {
+      "name": "Home",
+      "link": "/"
+    },
+    {
+      "name": "About",
+      "link": "/about"
+    },
+    {
+      "name": "Products",
+      "link": "/products"
+    },
+    {
+      "name": "Gallery",
+      "link": "/gallery"
+    },
+    {
+      "name": "Contact Us",
+      "link": "/contact"
+    }
   ],
- "founders": [
+  "founders": [
     {
       "name": "Vishal Avadhesh Pandey",
       "designation": "Founder",
@@ -38,8 +52,7 @@
       "message": "Vivek Avadhesh Pandey leads the organization with strong communication, leadership and strategic vision. His academic background strengthens the company’s growth and professional direction."
     }
   ],
-
-   "products": [
+  "products": [
     {
       "id": "bottles",
       "title": "Water Bottles",
@@ -50,28 +63,27 @@
       "id": "cups",
       "title": "Cups & Mug",
       "description": "High quality steel mugs",
-      "image": "../../public/images/Products/Cup_Mug/cup.jpeg"
+      "image": "/images/Products/Cup_Mug/cup.jpeg"
     },
     {
       "id": "casserole",
       "title": "Casserole",
       "description": "Insulated food containers",
-      "image": "../../public/images/Products/Casserole/Casserole.jpeg"
+      "image": "/images/Products/Casserole/Casserole.jpeg"
     },
     {
       "id": "gym shaker",
       "title": "Gym Shaker",
       "description": "Perfect for fitness and workouts",
-      "image": "../../public/images/Products/Gym_Shaker/gym.jpeg"
+      "image": "/images/Products/Gym_Shaker/gym.jpeg"
     },
     {
       "id": "tiffins",
       "title": "Tiffins",
       "description": "Durable stainless steel tiffins",
-      "image": "../../public/images/Products/Tiffin/Tiffin.jpeg"
+      "image": "/images/Products/Tiffin/Tiffin.jpeg"
     }
   ],
-  
   "testimonials": [
     {
       "name": "Rahul Sharma",
@@ -92,7 +104,6 @@
       "rating": 4
     }
   ],
-
   "clients": [
     {
       "name": "Reliance Retail",
